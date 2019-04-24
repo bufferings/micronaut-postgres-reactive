@@ -1,0 +1,15 @@
+---
+micronaut:
+  application:
+    name: micronaut-postgres-reactive
+
+---
+postgres:
+  reactive:
+    client:
+      port: 5432
+      host: localhost
+      database: mydb
+      user: postgres
+      password: mypass
+      # maxSize: 5

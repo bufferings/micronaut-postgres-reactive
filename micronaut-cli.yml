@@ -1,0 +1,5 @@
+profile: cli
+defaultPackage: micronaut.postgres.reactive
+---
+testFramework: junit
+sourceLanguage: java
